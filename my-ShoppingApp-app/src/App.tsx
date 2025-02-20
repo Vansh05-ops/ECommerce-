@@ -1,18 +1,9 @@
-import { useState } from 'react'
-
-
-import Application from './Applicationn'
-
+import Application from "./components/Application";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
       <Application />
-      
-    </>
-  )
+  );
 }
 
-export default App
+export default App;

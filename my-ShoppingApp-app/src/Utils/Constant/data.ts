@@ -1,4 +1,5 @@
 export interface Project {
+    quantity: number;
     id: string;
     name: string;
     description: string;
@@ -7,10 +8,11 @@ export interface Project {
     status: string;
     teamMembers: string[];
     budget: number;
-    image: string; // Added the image field
+    image: string; 
   }
   
-  export const projects: Project[] = [
+  export const 
+  projects: Project[] = [
     {
       id: "1",
       name: "Project Alpha",
@@ -20,7 +22,8 @@ export interface Project {
       status: "Ongoing",
       teamMembers: ["John Doe", "Alice Smith", "Robert Brown"],
       budget: 500000,
-      image: "https://t4.ftcdn.net/jpg/03/62/36/73/360_F_362367329_o0RTO2FJou21nEnHNqbBsPwMopx1ZCtD.jpg"
+      image: "https://t4.ftcdn.net/jpg/03/62/36/73/360_F_362367329_o0RTO2FJou21nEnHNqbBsPwMopx1ZCtD.jpg",
+      quantity: 0
     },
     {
       id: "2",
@@ -31,7 +34,8 @@ export interface Project {
       status: "Completed",
       teamMembers: ["Emily Davis", "Michael Johnson", "Sarah Wilson"],
       budget: 750000,
-      image: "https://t4.ftcdn.net/jpg/05/37/98/49/360_F_537984937_gWpifxNfewjVeQZfZQyKjXRlD5lVC9dK.jpg"
+      image: "https://t4.ftcdn.net/jpg/05/37/98/49/360_F_537984937_gWpifxNfewjVeQZfZQyKjXRlD5lVC9dK.jpg",
+      quantity: 0
     },
     {
       id: "3",
@@ -42,7 +46,8 @@ export interface Project {
       status: "In Progress",
       teamMembers: ["Chris White", "David Black", "Olivia Green"],
       budget: 1200000,
-      image: "https://cdn-icons-png.freepik.com/256/4563/4563620.png?semt=ais_hybrid"
+      image: "https://cdn-icons-png.freepik.com/256/4563/4563620.png?semt=ais_hybrid",
+      quantity: 0
     },
     {
       id: "4",
@@ -53,7 +58,8 @@ export interface Project {
       status: "Ongoing",
       teamMembers: ["Sophia Blue", "Liam Red", "Emma Yellow"],
       budget: 850000,
-      image: "https://www.zarla.com/images/zarla-digitalock-1x1-2400x2400-20220525-dvxqqfqp8wcw9689ggfx.png?crop=1:1,smart&width=250&dpr=2"
+      image: "https://www.zarla.com/images/zarla-digitalock-1x1-2400x2400-20220525-dvxqqfqp8wcw9689ggfx.png?crop=1:1,smart&width=250&dpr=2",
+      quantity: 0
     },
     {
       id: "5",
@@ -64,7 +70,8 @@ export interface Project {
       status: "In Progress",
       teamMembers: ["Noah Green", "Ava Purple", "Isabella Orange"],
       budget: 450000,
-      image: "https://uploads.turbologo.com/uploads/design/preview_image/68465850/preview_image20241130-1-jnusau.png"
+      image: "https://uploads.turbologo.com/uploads/design/preview_image/68465850/preview_image20241130-1-jnusau.png",
+      quantity: 0
     },
     {
       id: "6",
@@ -75,7 +82,8 @@ export interface Project {
       status: "Ongoing",
       teamMembers: ["James Brown", "Mia Black", "Ethan White"],
       budget: 980000,
-      image: "https://t4.ftcdn.net/jpg/01/02/95/93/360_F_102959300_Y4tmVIHJO9CQ7IJqwlTFj0IcaF7VUlLt.jpg"
+      image: "https://t4.ftcdn.net/jpg/01/02/95/93/360_F_102959300_Y4tmVIHJO9CQ7IJqwlTFj0IcaF7VUlLt.jpg",
+      quantity: 0
     },
     {
       id: "7",
@@ -86,7 +94,8 @@ export interface Project {
       status: "Planned",
       teamMembers: ["William Gray", "Charlotte Silver", "Alexander Gold"],
       budget: 2000000,
-      image: "https://cdn.vectorstock.com/i/preview-1x/14/08/logo-autonomous-car-vector-19811408.jpg"
+      image: "https://cdn.vectorstock.com/i/preview-1x/14/08/logo-autonomous-car-vector-19811408.jpg",
+      quantity: 0
     },
     {
       id: "8",
@@ -97,7 +106,8 @@ export interface Project {
       status: "Completed",
       teamMembers: ["Benjamin Cyan", "Lily Magenta", "Mason Indigo"],
       budget: 650000,
-      image: "https://t3.ftcdn.net/jpg/08/21/40/74/360_F_821407426_pPAXWfm6RWNjsRIz3iRhL0isarJYVxOV.jpg"
+      image: "https://t3.ftcdn.net/jpg/08/21/40/74/360_F_821407426_pPAXWfm6RWNjsRIz3iRhL0isarJYVxOV.jpg",
+      quantity: 0
     },
     {
       id: "9",
@@ -108,7 +118,8 @@ export interface Project {
       status: "Ongoing",
       teamMembers: ["Ella Brown", "Henry Red", "Lucas Blue"],
       budget: 730000,
-      image: "https://tryon.kivisense.com/blog/wp-content/uploads/2024/06/ar-for-ecommerce-1-1280x854.jpg"
+      image: "https://tryon.kivisense.com/blog/wp-content/uploads/2024/06/ar-for-ecommerce-1-1280x854.jpg",
+      quantity: 0
     },
     {
       id: "10",
@@ -119,7 +130,8 @@ export interface Project {
       status: "Planned",
       teamMembers: ["Grace Violet", "Daniel Green", "Sophia Rose"],
       budget: 1500000,
-      image: "https://companieslogo.com/img/128/REGI-4cd06ac6.png?t=1720244493"
+      image: "https://companieslogo.com/img/128/REGI-4cd06ac6.png?t=1720244493",
+      quantity: 0
     }
   ];
   
